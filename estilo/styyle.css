@@ -56,6 +56,7 @@ section.imagem#imagem01{
 }
 section.imagem#imagem02{
     background-image: url(../imagens/background002.jpg);
+    background-size: cover;
 }
     
 
@@ -67,6 +68,7 @@ section.imagem{
     color: white;
     background-color: rgba(0, 0, 0, 0.418); 
     padding: 4px;
+    box-shadow: inset 6px 6px 13px 0px black;
     
     
 }
