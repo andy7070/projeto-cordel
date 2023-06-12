@@ -52,6 +52,7 @@ section{
 section.imagem#imagem01{
     background-image: url(../imagens/background001.jpg);
     background-position: right center;
+    background-size: cover;
 }
 section.imagem#imagem02{
     background-image: url(../imagens/background002.jpg);
@@ -65,6 +66,7 @@ section.normal{
 section.imagem{
     color: white;
     background-color: rgba(0, 0, 0, 0.418); 
+    padding: 4px;
     
     
 }
