@@ -51,6 +51,7 @@ section{
 }
 section.imagem#imagem01{
     background-image: url(../imagens/background001.jpg);
+    background-position: right center;
 }
 section.imagem#imagem02{
     background-image: url(../imagens/background002.jpg);
@@ -70,6 +71,7 @@ section.imagem{
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.336);
     width: 450px;
+    text-shadow: 1px 1px 0px black;
     
 }
 
