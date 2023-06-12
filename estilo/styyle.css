@@ -1,12 +1,19 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & family= Roboto+Mono:ital,wght@1,100;1,600 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Crimson +Text:ital@1 & display=swap');
 *{
     margin: 0%;
     padding: 0%;
 }
+:root{
+    --font1: verdana, geneva, tahoma, sans-serif;
+    --font2: 'Crimson Text', serif;
+    --font3: 'Passion One', cursive;
+}
 html, body{
     min-height: 100%;
 background-color: darkgray;
+font-family: var(--font1);
 }
 header{
     background-color: black;
@@ -17,6 +24,8 @@ header > h1 {
     padding-top: 50px;
     text-transform: uppercase;
     color: white;
+    font-family: var(--font3);
+    font-size: 3em;
 }
 header > p {
     padding-bottom: 50px;
@@ -34,6 +43,8 @@ section{
     padding-bottom: 10%;
     line-height: 2em;
     padding-left: 25px;
+    font-family: var(--font2);
+    font-size: 1.5em;
 }
 section.normal{
     background-color: white;
@@ -41,6 +52,8 @@ section.normal{
 }
 section.imagem{
     background-color: rgba(0, 0, 0, 0.418);
+    display: inline-block
+    padding: 5px;
     color: white;
 }
 section.imagem > p {
