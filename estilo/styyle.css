@@ -25,7 +25,7 @@ header > h1 {
     text-transform: uppercase;
     color: white;
     font-family: var(--font3);
-    font-size: 3em;
+    font-size: 2em;
 }
 header > p {
     padding-bottom: 50px;
@@ -39,6 +39,7 @@ a:hover, footer a:hover{
     text-decoration: underline;
 }
 section{
+    width: 100%;
     padding-top: 10%;
     padding-bottom: 10%;
     line-height: 2em;
@@ -61,7 +62,9 @@ section.normal{
 section.imagem{
     color: white;
     background-color: rgba(0, 0, 0, 0.418);
-    padding: 6px;
+    
+    
+    
     
 
     
@@ -69,8 +72,8 @@ section.imagem{
 }
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.336);
-    width: 450px;
-    padding: 1em;
+    width: 500px;
+    
 }
 
 footer{
