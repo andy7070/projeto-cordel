@@ -1,1 +1,50 @@
 @charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html, body{
+    min-height: 100%;
+background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+header > p {
+    padding-bottom: 50px;
+}
+a, footer{
+    color: white;
+    font: 1em sans-serif;
+    text-decoration: none;
+}
+a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
